@@ -10,7 +10,7 @@
 
 @implementation CGContact
 
-+ (instancetype)contactWithName:(NSString *)name tel:(NSString *)tel
++ (instancetype)contactWithName:(NSString *)name tel:(NSString *)tel;
 {
     CGContact *contact = [[self alloc] init];
     contact.name = name;
@@ -18,5 +18,4 @@
     
     return contact;
 }
-
 @end

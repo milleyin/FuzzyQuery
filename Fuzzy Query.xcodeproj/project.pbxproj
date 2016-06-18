@@ -11,13 +11,13 @@
 		E40120DE1D15224C0032B4D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40120DD1D15224C0032B4D3 /* AppDelegate.m */; };
 		E40120E11D15224C0032B4D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40120E01D15224C0032B4D3 /* ViewController.m */; };
 		E40120E61D15224C0032B4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40120E51D15224C0032B4D3 /* Assets.xcassets */; };
-		E40120E91D15224C0032B4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40120E71D15224C0032B4D3 /* LaunchScreen.storyboard */; };
 		E40120F41D15224C0032B4D3 /* Fuzzy_QueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40120F31D15224C0032B4D3 /* Fuzzy_QueryTests.m */; };
 		E40120FF1D15224C0032B4D3 /* Fuzzy_QueryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40120FE1D15224C0032B4D3 /* Fuzzy_QueryUITests.m */; };
 		E401210F1D1524480032B4D3 /* CGContact.m in Sources */ = {isa = PBXBuildFile; fileRef = E401210E1D1524480032B4D3 /* CGContact.m */; };
 		E40121131D1524970032B4D3 /* CGContactTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E40121121D1524970032B4D3 /* CGContactTool.m */; };
 		E40121161D1525F10032B4D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40121141D1525F10032B4D3 /* LaunchScreen.xib */; };
 		E40121191D1526050032B4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40121171D1526050032B4D3 /* Main.storyboard */; };
+		E401211B1D15287C0032B4D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E401211A1D15287C0032B4D3 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		E40120DF1D15224C0032B4D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E40120E01D15224C0032B4D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E40120E51D15224C0032B4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E40120E81D15224C0032B4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E40120EA1D15224C0032B4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E40120EF1D15224C0032B4D3 /* Fuzzy QueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuzzy QueryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40120F31D15224C0032B4D3 /* Fuzzy_QueryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fuzzy_QueryTests.m; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		E40121121D1524970032B4D3 /* CGContactTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContactTool.m; sourceTree = "<group>"; };
 		E40121151D1525F10032B4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../../../../../Downloads/02-模糊查询/02-模糊查询/Base.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
 		E40121181D1526050032B4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../../Downloads/02-模糊查询/02-模糊查询/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		E401211A1D15287C0032B4D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../../../Downloads/02-模糊查询/02-模糊查询/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,6 @@
 				E40121171D1526050032B4D3 /* Main.storyboard */,
 				E40120E51D15224C0032B4D3 /* Assets.xcassets */,
 				E40121141D1525F10032B4D3 /* LaunchScreen.xib */,
-				E40120E71D15224C0032B4D3 /* LaunchScreen.storyboard */,
 				E40120EA1D15224C0032B4D3 /* Info.plist */,
 				E40120D91D15224C0032B4D3 /* Supporting Files */,
 			);
@@ -130,6 +129,7 @@
 		E40120D91D15224C0032B4D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E401211A1D15287C0032B4D3 /* Info.plist */,
 				E40120DA1D15224C0032B4D3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -258,8 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E40121161D1525F10032B4D3 /* LaunchScreen.xib in Resources */,
-				E40120E91D15224C0032B4D3 /* LaunchScreen.storyboard in Resources */,
 				E40120E61D15224C0032B4D3 /* Assets.xcassets in Resources */,
+				E401211B1D15287C0032B4D3 /* Info.plist in Resources */,
 				E40121191D1526050032B4D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E40120E71D15224C0032B4D3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E40120E81D15224C0032B4D3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		E40121141D1525F10032B4D3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
