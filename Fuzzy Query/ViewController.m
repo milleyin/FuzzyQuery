@@ -14,6 +14,7 @@
 @interface ViewController () <UISearchBarDelegate>
 
 @property (nonatomic, strong) NSMutableArray *contacts;
+@property(nonatomic, strong) IBOutlet UITableView *tableView;
 
 
 
